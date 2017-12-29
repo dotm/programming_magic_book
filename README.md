@@ -46,7 +46,7 @@ All programming constructs are spells. Variable assignment is a spell. Control f
 
 A thing must fulfills two criteria to be a spell: incantation and effects. Incantation is a particular arrangement of words (symbols) that you must use to produce the effects of a spell. Effects are things that a spell does (e.g. read data, create data, transform data, etc.).
 
-Everything that fulfills the two criteria above is magic.
+Everything that fulfills the two criteria above is a spell.
 
 ### Learning ~~Programming~~ Magic Can Make You Smart
 Want to become smarter? Don't do stupid trivia quizzes or brain games. They don't make you smarter.
