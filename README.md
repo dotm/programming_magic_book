@@ -39,12 +39,12 @@ Well, you can just read this book and see for yourself how easy it is to create 
 
 But for now, let's look at it like this: with recipes, you can only use it as an analogy to imperative or structured programming (programming by giving instructions to the computer), you can't use it to describe declarative or even procedural programming.
 
-On the other hand, you can describe any (or almost any) programming concept as spell.
+On the other hand, you can describe any programming concept in magic terms.
 
 ### Introducing Spell-Oriented Programming
-Everything is a spell. Variable assignment is a spell. Control flow structures (if-else, for loop, etc.) are spells. Procedures and methods are spells. Class definition and object instantiation are spells. Higher-order functions are spells. Design patterns are spells.
+All programming constructs are spells. Variable assignment is a spell. Control flow structures (if-else, for loop, etc.) are spells. Procedures and methods are spells. Class definition and object instantiation are spells. Higher-order functions are spells. Design patterns are spells.
 
-A thing has two criteria to be a spell: incantation and effects. Incantation is a particular arrangement of words (symbols) that you must use to produce the effects of a spell. Effects are things that a spell does (e.g. read data, create data, transform data, etc.).
+A thing must fulfills two criteria to be a spell: incantation and effects. Incantation is a particular arrangement of words (symbols) that you must use to produce the effects of a spell. Effects are things that a spell does (e.g. read data, create data, transform data, etc.).
 
 Everything that fulfills the two criteria above is magic.
 
