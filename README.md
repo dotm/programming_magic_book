@@ -4,7 +4,9 @@ This is a book where we explore programming as if it is magic.
 **This is a spell book of programming. I document every spells that I have encountered in this book.**
 
 ### For Non-Programmers
-Think programming is a boring job/activity? Think again. It IS the magic that we, human, have access to in this universe. Let's explore this world of ~~programming~~ magic together. Maybe you have what it takes to be a good wizard/witch. Who knows?
+Do you think that programming is a boring job/activity? Think again. It IS the magic that we, human, have access to, in this universe. 
+
+Let's explore this world of ~~programming~~ magic together. Maybe you have what it takes to be a good wizard/witch. Who knows?
 
 ### For Beginner Programmers
 You may learn one or two programming language. But, you may want to be language agnostic. Well, lucky you! You found this book that can help you on your journey.
