@@ -10,11 +10,14 @@ Let's explore this world of ~~programming~~ magic together. Maybe you have what 
 
 ### For Beginner Programmers
 You may learn one or two programming language. But, you may want to be language agnostic. Well, lucky you! You found this book that can help you on your journey.
-This book will list common programming constructs (spells) independent of any programming language and explain them one-by-one.
+
+This book lists common programming constructs (spells) independent of any programming language and explain them one-by-one.
 
 ### For Experienced Programmers
 I'm thinking that maybe we can make a kind of bridge (adapter?) between problem solutions or feature ideas that we can express in pseudo-code using the relevant domain language, with the concrete implementation that we code into files/terminal using a particular programming language.
+
 This bridge will be programming constructs, or what I call in this book as spells.
+
 Think of it as a generalization of the principle 'Program to an interface, not an implementation.' All the benefits we get of that principle, we can probably get by programming to language-independent programming constructs.
 
 ### A Better Analogy than Cooking
@@ -24,7 +27,7 @@ While I understand, that we humans love food (we literally can't live without it
 
 "But cooking is real. Humans are not familiar with magic!"
 Are you sure?
-We all have 'see' magic indirectly through our entertainments: DotA and other games that use magic, Harry Potter and other movies/books that use magic, Naruto and other animation that use magic, etc.
+We all have 'see' magic indirectly through our entertainments: DotA and other games that use magic, Harry Potter and other movies/books that use magic, Naruto and other animations that use magic, etc.
 
 Since we all have 'seen' magic, it'll be easy to explain programming using the vocabulary of magic.
 
@@ -43,6 +46,8 @@ Everything is a spell. Variable assignment is a spell. Control flow structures (
 
 A thing has two criteria to be a spell: incantation and effects. Incantation is a particular arrangement of words (symbols) that you must use to produce the effects of a spell. Effects are things that a spell does (e.g. read data, create data, transform data, etc.).
 
+Everything that fulfills the two criteria above is magic.
+
 ### Learning ~~Programming~~ Magic Can Make You Smart
 Want to become smarter? Don't do stupid trivia quizzes or brain games. They don't make you smarter.
 
@@ -60,3 +65,5 @@ In short, you'll become smarter.
 I'm not an experienced programmer. If you find conceptual mistakes or other technical-related mistakes in this book, feel free to correct it or tell me to correct it.
 
 I'm not a native English speaker. If you find grammar or spelling related mistakes in this book, feel free to correct it or tell me to correct it.
+
+I don't know everything. If you know a spell that I haven't write about or have some ideas that can improve this book, feel free to tell me about it.
