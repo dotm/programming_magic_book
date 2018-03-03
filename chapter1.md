@@ -1,5 +1,4 @@
-#
-Basic Spells
+#Basic Spells
 
 ## Primitive Data Types (The basic atoms of the programming universe)
 
@@ -57,10 +56,14 @@ So, why do we bother creating things inside these permanent boxes instead of ins
 a = 7
 a + 3
 a / 2
+a
 ```
-When you do `a + 3`, what you are doing is actually: you take a **copy** of the thing inside that box (which in the case above is 7) and then add 3 to it. And by copy, I mean that the variable `a` still contains the value 7 inside it. So, when you do `a / 2`, the `a` still 'evaluates' to 7 (the `a` variable still have the value 7 you assign to it, and you can still take it out), and you can divide it by 2.
+In `a + 3`, the `a` part before the `+ 3` is actually the Variable Call Spell: you take a **copy** of anything inside a variable (which in the case above is 7).
+The above `a + 3` then means that after you call the variable, you get the value 7, and then you add 3 to it.
+The Variable Call Spell copy anything inside a variable, and give the copy to you, which means that the variable `a` still contains the value 7 inside it. So, when you do `a / 2`, the `a` still 'evaluates' to 7 (the `a` variable still have the value 7, and you can still take the 7 out), and you can divide it by 2.
+The last line above just cast the Variable Call spell on the variable box `a` and do nothing to the value 7 you get from the spell.
 
-Why do we call the named box a variable? Because the thing inside it can vary:
+Anyway, why do we call the named box a variable? Because the thing inside it can vary:
 ```
 a = 7
 a = "A multi word string"
@@ -71,7 +74,11 @@ There are spells that can make the box only filled once. It is the Constant Decl
 ```const A = 7```
 With this spell you can make a box that can only be filled once. Once you create a thing inside the box `A` (which in the above case is 7), you cannot make that thing disappears and create another thing inside that box (e.g. the string "DoReMi"). In other words, once you assign a thing to that box `A` (which in the above case is 7), you can’t assign other things to it.
 
-Now knowing that variable (named box) is called variable because it can vary, and knowing that = is the invocation of the variable assignment spell (and not equality), you can make sense of this spell incantations:
+The Constant Call Spell is the same as the Variable Call Spell:
+`A + 3`
+You just type the name of the constant `A`, and you'll get a copy of anything inside that constant box.
+
+Now, knowing that variable (named box) is called variable because it can vary, and knowing that = is the invocation of the variable assignment spell (and not equality), you can make sense of this spell incantations:
 ```
 a = 2
 a = a + 1
@@ -89,13 +96,14 @@ a++   #This is the same as doing a = a + 1
 There is also the Decrement Spell `a--` which is the same as doing `a = a - 1`
 
 ---
-
 Spells learned:
 
 - Variable declaration
 - Variable assignment
+- Variable call
 - Constant declaration
 - Constant assignment
+- Constant call
 - Increment
 - Decrement
 - Operator (Yes… Operators are spells too. You’ll learn more about them in the next section)
