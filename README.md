@@ -34,9 +34,7 @@ Since we all have 'seen' magic, it'll be easy to explain programming using the v
 "OK, so why is magic a better analogy than food?"
 Because it is adaptable. There are many kinds of magic that we can use as analogy. And we can even invent new kind of magic since it is not real.
 
-You can read this book and see for yourself how easy it is to create analogy for programming concepts using magic. In contrast, with recipes, you can only use it as an analogy to imperative or structured programming (programming by giving instructions to the computer). It's hard to use recipes to describe declarative or object-oriented programming.
-
-On the other hand, you can describe any programming concept in magic terms.
+You can read this book and see for yourself how easy it is to create analogy for programming constructs using magic. In contrast, with recipes, you can only use it as an analogy to imperative or structured programming (programming by giving instructions to the computer). It's hard to use recipes to describe declarative or object-oriented programming. On the other hand, I believe we can describe any programming constructs in magic terms.
 
 ### Introducing Spell-Oriented Programming
 All programming constructs are spells. Variable assignment is a spell. Control flow structures (if-else, for loop, etc.) are spells. Procedures and methods are spells. Class definition and object instantiation are spells. Higher-order functions are spells. Design patterns are spells.
