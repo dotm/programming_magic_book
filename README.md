@@ -26,8 +26,7 @@ Some programmers love to explain programming by giving an analogy to cooking rec
 While I understand, that we humans love food (we literally can't live without it after all), I think magic or spells is a better analogy.
 
 "But cooking is real. Humans are not familiar with magic!"
-Are you sure?
-We all have 'see' magic indirectly through our entertainments: DotA and other games that use magic, Harry Potter and other movies/books that use magic, Naruto and other animations that use magic, etc.
+Are you sure? We all have 'seen' magic indirectly through our entertainments: DotA and other games that use magic, Harry Potter and other movies/books that use magic, Naruto and other animations that use magic, etc.
 
 Since we all have 'seen' magic, it'll be easy to explain programming using the vocabulary of magic.
 
