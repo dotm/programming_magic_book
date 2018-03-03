@@ -14,11 +14,11 @@ You may learn one or two programming language. But, you may want to be language 
 This book lists common programming constructs (spells) independent of any programming language and explain them one-by-one.
 
 ### For Experienced Programmers
-I'm thinking that maybe we can make a kind of bridge (adapter?) between problem solutions or feature ideas that we can express in pseudo-code using the relevant domain language, with the concrete implementation that we code into files/terminal using a particular programming language.
+I'm thinking that maybe we can make a kind of bridge (adapter?), between problem solutions or feature ideas that we can express in pseudo-code using the relevant domain language, and the concrete implementation that we code into files/terminal using a particular programming language.
 
-This bridge will be programming constructs, or what I call in this book as spells.
+This bridge will be programming constructs, which I call in this book as spells.
 
-Think of it as a generalization of the principle 'Program to an interface, not an implementation.' All the benefits we get of that principle, we can probably get by programming to language-independent programming constructs.
+Think of it as a generalization of the principle 'Program to an interface, not an implementation.' All the benefits we get from following that principle in a micro level (using interface instead of concrete class), we can probably get by following the principle in a more abstract level (by programming to language-independent programming constructs instead of a specific programming language).
 
 ### A Better Analogy than Cooking
 Some programmers love to explain programming by giving an analogy to cooking recipes or food processing in general.
