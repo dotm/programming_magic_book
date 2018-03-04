@@ -1,4 +1,4 @@
-#Basic Spells
+# Basic Spells
 
 ## Primitive Data Types (The basic atoms of the programming universe)
 
@@ -6,11 +6,17 @@ In the beginning, the programming universe (a.k.a. your RAM) was formless. It is
 
 There are 3 basic things you can create.
 
-The first thing is Number. You can create 0, 42, 0.0001, 3.14, or -9 inside a memory bubble. You can even create 2.4e3 which turns into 2.4 &times; 10<sup>3</sup> which turns into 2.4 &times; 1000 which turns into 2400. Or you can create 2.4e-3 which turns into 4 &times; 10<sup>-3</sup> which turns into 4 &times; 0.001 which turns into 0.004.
+The first thing is Number. You can create 0, 42, 0.0001, 3.14, or -9 inside a memory bubble. You can even create 2.4e3 which turns into 2.4 &times; 10<sup>3</sup> which turns into 2.4 &times; 1000 which turns into 2400. Or you can create 2.4e-3 which turns into 4 &times; 10<sup>-3</sup> which turns into 4 &times; 0.001 which turns into 0.004. 
 
-The second thing you can create in this universe is word and character which in the programming universe is called String. You can create a single character string like "b." You can create a multi characters string like "Lmao." You can create a single word string like "hello." You can create a multi word string like "Hello World."
+All the number above that can be created inside a bubble (0, 42, 0.0001, etc.) is called **Numeric Literal**.
+
+The second thing you can create in this universe is word and character which in the programming universe is called String. You can create a single character string like "b". You can create a multi characters string like "7070". You can create a single word string like "hello". You can create a multi word string like "Hello World".
+
+Anything inside double quotes creates a string inside a bubble and is called **String Literal**.
 
 The last basic thing you can create is what is called Boolean. True or False. On or Off. You can create one electron inside a bubble to make it On. You can create an empty bubble to make it Off.
+
+The **Boolean Literal** only have two variation: True and False.
 
 These 3 things are called primitive data types. It is called primitive because it is the basic building block of the programming universe. Much like different kind of atoms are the primitive data types of the physical universe, these 3 things (Number, String, Boolean) are the primitive data types of the programming universe.
 
@@ -22,8 +28,14 @@ This is all quite interesting. But you see a problem. When you create something 
 Spells learned:
 
 - Number creation
+  - Incantation: Numeric literal
+  - Effect: create a number inside a bubble
 - String creation
+  - Incantation: String literal
+  - Effect: create a string inside a bubble
 - Boolean creation
+  - Incantation: Boolean literal
+  - Effect: create a boolean inside a bubble
 
 ---
 
@@ -59,7 +71,9 @@ a / 2
 a
 ```
 In `a + 3`, the `a` part before the `+ 3` is actually the Variable Call Spell: you take a **copy** of anything inside a variable (which in the case above is 7).
-The above `a + 3` then means that after you call the variable, you get the value 7, and then you add 3 to it.
+And, do you remember what the `3` means? Yep, it is a Numeric Literal used for Number Creation Spell.
+The above `a + 3` then means that after you call the variable `a`, you get the value 7. Then, you create a 3 inside a bubble. And then you add both values (7 and 3).
+
 The Variable Call Spell copy anything inside a variable, and give the copy to you, which means that the variable `a` still contains the value 7 inside it. So, when you do `a / 2`, the `a` still 'evaluates' to 7 (the `a` variable still have the value 7, and you can still take the 7 out), and you can divide it by 2.
 The last line above just cast the Variable Call spell on the variable box `a` and do nothing to the value 7 you get from the spell.
 
@@ -99,13 +113,29 @@ There is also the Decrement Spell `a--` which is the same as doing `a = a - 1`
 Spells learned:
 
 - Variable declaration
+  - Incantation: `var variable_name`
+  - Effect: turn a nameless, fleeting bubble into a solid, persistent box by naming it with variable_name.
 - Variable assignment
+  - Incantation: `variable_name = literal`
+  - Effect: do a creation spell inside a box.
 - Variable call
+  - Incantation: `variable_name`
+  - Effect: get a copy of the value that exist inside a box named variable_name (the box need to be created first using Declaration Spell).
 - Constant declaration
+  - Incantation: `const Constant_Name`
+  - Effect: turn a nameless, fleeting bubble into a solid, persistent box that can only be filled once.
 - Constant assignment
+  - Incantation: `Constant_Name = literal`
+  - Effect: do a creation spell inside a box.
 - Constant call
+  - Incantation: `Constant_Name`
+  - Effect: get a copy of the value that exist inside a box named Constant_Name (the box need to be created first using Declaration Spell).
 - Increment
+  - Incantation: `variable_with_number_value++`
+  - Effect: add one to a box containing a number value
 - Decrement
+  - Incantation: `variable_with_number_value--`
+  - Effect: subtract one from a box containing a number value
 - Operator (Yes… Operators are spells too. You’ll learn more about them in the next section)
 
 ---
